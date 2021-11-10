@@ -1,0 +1,11 @@
+$begin 'CacheDataVersion'
+	DataVersion=-1
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	Widthground='49.269mm'
+	LengthGround='42.5318mm'
+	widthpatch='30.429mm'
+	lengthpatch='23.4318mm'
+	distx='0mm'
+	disty='6mm'
+$end 'VariableValues'

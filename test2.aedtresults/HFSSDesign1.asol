@@ -1,0 +1,243 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002021, month=000000000011, day=000000000010, hour=000000000022, min=000000000004, sec=000000000044)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000008819, lin=000000000222, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock6'
+	SolutionName='AdaptivePass'
+	SolutionID=1109
+	V=0
+	$begin 'States'
+		F(VID=1111, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(3000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=1111, Ver=0, File='DV1111_SOL1109_M1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=1111, Ver=0, File='DV1111_SOL1109_M2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=1111, Ver=0, File='DV1111_SOL1109_M3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=1111, Ver=0, File='DV1111_SOL1109_M4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=1111, Ver=0, File='DV1111_SOL1109_M5_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=1111, Ver=0, File='DV1111_SOL1109_M6_V0.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock6'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=1108, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock9'
+	'SolutionKey(SimSetup=1108, Instance=\'SolutionDefinition\', Solution=1109, VersionID=0)'='SolutionBlock6'
+	'SolutionKey(SimSetup=1108, Instance=\'SolutionDefinition\', Solution=1110, VersionID=0)'='SolutionBlock7'
+	'SolutionKey(SimSetup=1108, Instance=\'SolutionDefinition\', Solution=1114, VersionID=0)'='SolutionBlock8'
+$end 'BlockMapName'
+$begin 'SolutionBlock7'
+	SolutionName='LastAdaptive'
+	SolutionID=1110
+	V=0
+	$begin 'States'
+		F(VID=1111, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(3000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=1111, Ver=0, File='DV1111_SOL1110_M0_V0.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(1236, 3000000000)
+		$begin 'DataMap'
+			VID=1111
+			Ver=0
+			F(DblID=1236, Dir='DV1111_S1110_V0_F1236/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock7'
+$begin 'SolutionBlock8'
+	SolutionName='Sweep'
+	SolutionID=1114
+	V=0
+	$begin 'States'
+		F(VID=1111, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2000000000, 2015151515.15152, 2030303030.30303, 2045454545.45455, 2060606060.60606, 2075757575.75758, 2090909090.90909, 2106060606.06061, 2121212121.21212, 2136363636.36364, 2151515151.51515, 2166666666.66667, 2181818181.81818, 2196969696.9697, 2212121212.12121, 2227272727.27273, 2242424242.42424, 2257575757.57576, 2272727272.72727, 2287878787.87879, 2303030303.0303, 2318181818.18182, 2333333333.33333, 2348484848.48485, 2363636363.63636, 2378787878.78788, 2393939393.93939, 2409090909.09091, 2424242424.24242, 2439393939.39394, 2454545454.54545, 2469696969.69697, 2484848484.84848, 2500000000, 2515151515.15152, 2530303030.30303, 2545454545.45455, 2560606060.60606, 2575757575.75758, 2590909090.90909, 2606060606.06061, 2621212121.21212, 2636363636.36364, 2651515151.51515, 2666666666.66667, 2681818181.81818, 2696969696.9697, 2712121212.12121, 2727272727.27273, 2742424242.42424, 2757575757.57576, 2772727272.72727, 2787878787.87879, 2803030303.0303, 2818181818.18182, 2833333333.33333, 2848484848.48485, 2863636363.63636, 2878787878.78788, 2893939393.93939, 2909090909.09091, 2924242424.24242, 2939393939.39394, 2954545454.54545, 2969696969.69697, 2984848484.84848, 3000000000, 3015151515.15152, 3030303030.30303, 3045454545.45455, 3060606060.60606, 3075757575.75758, 3090909090.90909, 3106060606.06061, 3121212121.21212, 3136363636.36364, 3151515151.51515, 3166666666.66667, 3181818181.81818, 3196969696.9697, 3212121212.12121, 3227272727.27273, 3242424242.42424, 3257575757.57576, 3272727272.72727, 3287878787.87879, 3303030303.0303, 3318181818.18182, 3333333333.33333, 3348484848.48485, 3363636363.63636, 3378787878.78788, 3393939393.93939, 3409090909.09091, 3424242424.24242, 3439393939.39394, 3454545454.54545, 3469696969.69697, 3484848484.84848, 3500000000)
+		SolutionType=4
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=1111, Ver=0, File='DV1111_SOL1114_M0_V0.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(1256, 2750000000)
+		$begin 'DataMap'
+			VID=1111
+			Ver=0
+			F(DblID=1256, Dir='DV1111_S1114_V0_F1256/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock8'
+$begin 'SolutionBlock9'
+	SimSetupID=1108
+	SimSetupName='Setup1'
+	VersionID=0
+	$begin 'EmConvergenceData'
+		EmConv(VID=1111, Ver=0, EmConv='DV1111_S1108_V0.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=3
+	$begin 'CurrMeshes'
+		M(VID=1111, Ver=0, Dir='DV1111_S1108_V0.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=6
+			ADP(VID=1111, Ver=0, Dir='DV1111_S1108_ADP6_V0.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=1111, Ver=0, File='DV1111_S1108_SD1_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=1111, Ver=0, File='DV1111_S1108_SD2_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=1111, Ver=0, File='DV1111_S1108_SD3_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			SU(VID=1111, Ver=0, File='DV1111_S1108_SD4_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			SU(VID=1111, Ver=0, File='DV1111_S1108_SD5_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			SU(VID=1111, Ver=0, File='DV1111_S1108_SD6_V0.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=1111, Ver=0, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=1111, Ver=0, P=6)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=1111, Ver=0, File='DV1111_S1108_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=1111, Ver=0, Dir='DV1111_S1108_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock9'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=761
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=1265
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'23.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', ID=1111)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=1111, Ver=761, Dir='DV1111_V761.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=0
+			VIDMap('distx=\'0mm\' disty=\'12mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'23.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', 1101, 'distx=\'0mm\' disty=\'4.8099999999999996mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'23.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', 1097, 'distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'23.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', 1099, 'distx=\'0mm\' disty=\'9mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'23.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', 1060, 'distx=\'2mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'23.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', 1103, 'distx=\'6mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'23.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', 1107, 'distx=\'9mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'23.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', 1105)
+			DM(VID=1099, Ver=0, Dir='NDV1099_V0.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=1111, Ver=761, Dir='DV1111_MI0_V761.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=0
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=6496, lin=185, lvl=0)
+		SolutionBlock6(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1358, lin=46, lvl=0)
+		SolutionBlock7(pos=1856, lin=53, lvl=0)
+		SolutionBlock8(pos=2519, lin=86, lvl=0)
+		SolutionBlock9(pos=4932, lin=119, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=8819, lin=222, lvl=0)
+	$end '$index$'
+$end '$index$'
