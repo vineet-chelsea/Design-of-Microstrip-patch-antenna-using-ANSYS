@@ -70,13 +70,11 @@ $begin 'EMConvergenceData'
 			PassNo=6
 			Intrinsics=''
 			SolvedElements(7157, 0)
-			MaxMagDeltaS(0.0885442, 0)
 		$end 'QuantityValues'
 		$begin 'QuantityValues'
 			PassNo=6
 			Intrinsics='Freq=\'3000000000\''
 			SolvedElements(7157, 0)
-			MaxMagDeltaS(0.0885442, 0)
 		$end 'QuantityValues'
 	$end 'ConvValues'
 $end 'EMConvergenceData'

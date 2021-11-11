@@ -10,10 +10,10 @@
     NumTets 7157
     BasisOrder 1
     TREECOTREE 0
-    MemoryMasterMB 65.000000
-    MemoryTotalMB 217.281250
+    MemoryMasterMB 64.000000
+    MemoryTotalMB 216.507813
     NumMeshStatisticsTets 7157
-    MemoryForSMatrixOnlyMB 128.482044
+    MemoryForSMatrixOnlyMB 129.439075
     LowFrequencyCutoff 2319136.513781
     MemoryDistributedTotalMB -1.000000
     MemoryDistributedSMatrixOnlyMB -1.000000

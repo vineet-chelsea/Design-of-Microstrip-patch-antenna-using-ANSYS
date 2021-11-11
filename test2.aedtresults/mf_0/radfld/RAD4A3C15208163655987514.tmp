@@ -5,32 +5,32 @@ $begin 'RFSM'
 	$end 'CustomSurfs'
 	$begin 'SetupSolns'
 		$begin 'SetupSolnEntry'
-			Key(ParentID=4, VersID=3, ParentID=1110, VersID=1388, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'20.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'20.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
-			SetupSolnFBOFile='79D06332163665391454.tmp'
+			Key(ParentID=4, VersID=3, ParentID=1110, VersID=1583, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'20.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
+			SetupSolnFBOFile='323A17440163666837168.tmp'
 		$end 'SetupSolnEntry'
 		$begin 'SetupSolnEntry'
-			Key(ParentID=4, VersID=3, ParentID=1110, VersID=1388, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'20.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'27.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
-			SetupSolnFBOFile='77B86332163665375028.tmp'
+			Key(ParentID=6, VersID=5, ParentID=1110, VersID=1583, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'21.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'28.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
+			SetupSolnFBOFile='2AC117440163666778551.tmp'
 		$end 'SetupSolnEntry'
 		$begin 'SetupSolnEntry'
-			Key(ParentID=4, VersID=3, ParentID=1110, VersID=1388, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'20.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'33.429000000000002mm\'', IntrVarn='Freq=\'3GHz\'')
-			SetupSolnFBOFile='78906332163665381641.tmp'
+			Key(ParentID=6, VersID=5, ParentID=1110, VersID=1583, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'20.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'29.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
+			SetupSolnFBOFile='2BED17440163666787763.tmp'
 		$end 'SetupSolnEntry'
 		$begin 'SetupSolnEntry'
-			Key(ParentID=6, VersID=5, ParentID=1110, VersID=1388, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'20.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'20.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
-			SetupSolnFBOFile='79D06332163665391453.tmp'
+			Key(ParentID=6, VersID=5, ParentID=1110, VersID=1583, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'21.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'29.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
+			SetupSolnFBOFile='29CC17440163666771040.tmp'
 		$end 'SetupSolnEntry'
 		$begin 'SetupSolnEntry'
-			Key(ParentID=6, VersID=5, ParentID=1110, VersID=1388, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'20.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'27.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
-			SetupSolnFBOFile='77B86332163665375027.tmp'
+			Key(ParentID=6, VersID=5, ParentID=1110, VersID=1583, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'22.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'29.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
+			SetupSolnFBOFile='28CA17440163666763129.tmp'
 		$end 'SetupSolnEntry'
 		$begin 'SetupSolnEntry'
-			Key(ParentID=6, VersID=5, ParentID=1110, VersID=1388, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'20.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
-			SetupSolnFBOFile='7EAC6332163665429561.tmp'
+			Key(ParentID=6, VersID=5, ParentID=1110, VersID=1583, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'20.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
+			SetupSolnFBOFile='1BD41744016366666154.tmp'
 		$end 'SetupSolnEntry'
 		$begin 'SetupSolnEntry'
-			Key(ParentID=6, VersID=5, ParentID=1110, VersID=1388, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'20.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'33.429000000000002mm\'', IntrVarn='Freq=\'3GHz\'')
-			SetupSolnFBOFile='78906332163665381640.tmp'
+			Key(ParentID=6, VersID=5, ParentID=1110, VersID=1583, Context='0:0', DesVarn='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'22.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\'', IntrVarn='Freq=\'3GHz\'')
+			SetupSolnFBOFile='276617440163666752217.tmp'
 		$end 'SetupSolnEntry'
 	$end 'SetupSolns'
 	$begin 'MonostaticRcsSolns'
