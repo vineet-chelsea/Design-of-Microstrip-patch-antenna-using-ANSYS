@@ -4,4 +4,14 @@ $begin 'ValidationCache'
 		Status=true
 		FileName='VI4B0C2201616366502489.tmp'
 	$end 'OneValidationResult'
+	$begin 'OneValidationResult'
+		Variation='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'20.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'27.428999999999998mm\''
+		Status=true
+		FileName='VI77776332163665373015.tmp'
+	$end 'OneValidationResult'
+	$begin 'OneValidationResult'
+		Variation='distx=\'0mm\' disty=\'6mm\' LengthGround=\'42.531799999999997mm\' lengthpatch=\'23.431799999999999mm\' Widthground=\'49.268999999999998mm\' widthpatch=\'30.428999999999998mm\''
+		Status=true
+		FileName='VI6676633216366523971.tmp'
+	$end 'OneValidationResult'
 $end 'ValidationCache'
